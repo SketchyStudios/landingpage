@@ -21,6 +21,7 @@ body {
    
 }
 
+
 h1{
     margin-left: 10px;
 }
@@ -40,6 +41,92 @@ h1{
     flex-direction: column;
     width: 500px;
 }
+
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-radius: 25px;
+    
+    
+    
+  }
+
+  .borderone{
+    
+    border-radius: 25px;
+    flex-wrap: wrap;
+    padding: -10px;
+    width: 210px;
+   
+  }
+
+  .bordertwo{
+    border-radius: 25px;
+    flex-wrap: wrap;
+    padding: -10px;
+    width: 210px;
+
+  }
+
+  .borderthree{
+    border-radius: 25px;
+    flex-wrap: wrap;
+    padding: -10px;
+    width: 210px;
+
+  }
+
+  .borderfour{
+    border-radius: 25px;
+    flex-wrap: wrap;
+    padding: -10px;
+    width: 210px;
+
+  }
+
+  .quote{
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: lighter;
+    font-color:#1F2937;
+    
+    
+  }
+
+ #quotetwo{
+    width: 600px;
+    
+    margin-left: 600px;
+ }
+
+ #quotethree{
+    margin-left: 900px;
+ }
+
+ .action{
+    background-color: #3882f6;
+    color: white;
+   
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 100px;
+    border-radius: 25px;
+    border: solid;
+    border-color: white;
+    
+ }
+
+ #actiontwo{
+    display: flex;
+    flex-direction: column;
+    
+
+    
+ }
 
 button{
     color: white;
@@ -71,5 +158,35 @@ a{
 
 img{
     border-radius: 25px;
+    border: solid;
+    border-color: #1F2937;
+    
+    
 }
 
+h3{
+    display: flex;
+    justify-content: center;
+    color:#1F2937;
+    font-size: 36px;
+}
+
+h4{
+    margin-bottom: -10px;
+}
+
+button{
+    margin-top: 10px;
+    border: solid;
+    border-color: #F9FAF8;
+}
+
+footer{
+    background-color: rgb(37, 37, 37);
+    color:#e5e7eb;
+    text-align: center;
+}
+
+button .action{
+    border: solid;
+}
